@@ -370,3 +370,19 @@ body {
         box-sizing: border-box;
     }
 }
+@media (max-width: 768px) {
+    /* Ajusta somente a área do formulário */
+    form {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+    }
+
+    form input,
+    form textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+}
