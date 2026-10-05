@@ -352,3 +352,21 @@ body {
         width: 100%;
     }
 }
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    form {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
